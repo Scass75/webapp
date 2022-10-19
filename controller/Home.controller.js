@@ -51,7 +51,7 @@ sap.ui.define(
           this.onSearch();
         },
         onDetail: function (oEvent) {
-          const id = oEvent.getSource().getId();
+          const id = oEvent.getSource().getAggregation("content")[0].getBindingContext("cars").getObject().id;
           var oRouter = this.getOwnerComponent().getRouter();
           oRouter.navTo("detail", {
             cars: id,
