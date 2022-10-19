@@ -9,7 +9,7 @@ sap.ui.define(
       "use strict";
       return Controller.extend("ACQ.PaginaAcquisti.controller.Home", {
         onSearch: function () {
-          const oTable = this.byId("mainTable");
+          const oTable = this.byId("gridList");
           const sName = this.byId("filterID").getSelectedKeys();
           const sProd = this.byId("fbProd").getValue();
           const sData1 = this.byId("fbData").getSelectedKeys();
