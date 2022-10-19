@@ -1,11 +1,16 @@
 <mvc:View controllerName="ACQ.PaginaAcquisti.controller.Detail" displayBlock="true" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns:card="sap.f.cards" xmlns:f="sap.f">
     <Page showHeader="true" showNavButton="true" navButtonPress="onBack">
-        <f:Card class="sapUiMediumMargin" width="350px" height="250px" headerPosition="Top">
+        <f:Card class="sapUiMediumMargin" width="350px" height="300px" headerPosition="Top">
             <f:header>
                 <card:Header id="detail" iconSrc="https://thumbs.dreamstime.com/b/la-progettazione-automatica-di-logo-del-concessionario-auto-con-il-concetto-mette-mostra-la-siluetta-del-veicolo-87968244.jpg" />
             </f:header>
             <f:content>
                 <VBox class="sapUiSmallMargin" justifyContent="Start">
+                    <HBox justifyContent="Start">
+                        <items>
+                            <Image src="{cars>Image}"/>
+                        </items>
+                    </HBox>
                     <HBox justifyContent="Start">
                         <items>
                             <Text text="Car:{cars>Team} {cars>Model}"/>

@@ -6,6 +6,7 @@
   "color": "Red",
   "Price": "€15000000,00",
   "Owner": "Flavio Vento",
+  "Image": "https://cdn-1.motorsport.com/images/amp/0oOj39D0/s6/charles-leclerc-ferrari-f1-75-.jpg",
   "horsepw": 1100
 }, {
   "id": 2,
@@ -51,6 +52,7 @@
   "color": "Khaki",
   "Price": "€2071208,79",
   "Owner": "Violetta Rist",
+  "Image":"https://mercury.bid.cars/1-45925962/2011-Volkswagen-Jetta-3VWDX7AJ3BM379361-1.jpg",
   "horsepw": 604
 }, {
   "id": 7,
@@ -65,10 +67,11 @@
   "id": 8,
   "Team": "Kia",
   "Model": "Rio",
-  "Year": 2013,
+  "Year": 2020,
   "color": "Yellow",
   "Price": "€9346165,73",
   "Owner": "Phineas Meers",
+  "Image": "https://www.kia.ch/fileadmin/_processed_/a/5/csm_00_fb8e9d4878.png",
   "horsepw": 642
 }, {
   "id": 9,
@@ -291,9 +294,10 @@
   "Team": "Mitsubishi",
   "Model": "Eclipse",
   "Year": 1992,
-  "color": "Purple",
+  "color": "Lime",
   "Price": "€3981187,22",
   "Owner": "Colline Papachristophorou",
+  "Image":"https://cdn.motor1.com/images/mgl/vLrOq/s3/mitsubishi-eclipse-all-asta-l-esemplare-di-fast-furious.jpg",
   "horsepw": 145
 }, {
   "id": 34,
@@ -802,11 +806,12 @@
 }, {
   "id": 90,
   "Team": "Ferrari",
-  "Model": "SF90 Stradale",
+  "Model": "SF90 Stradale /Novitech",
   "Year": 2020,
   "color": "Rosso Modena",
   "Price": "€500000,00",
   "Owner": "Flavio Vento",
+  "Image":"https://cdn.motor1.com/images/mgl/xqq24z/s1/novitec-ferrari-sf90-stradale-2022.jpg",
   "horsepw": 477
 }, {
   "id": 91,

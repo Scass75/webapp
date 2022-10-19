@@ -49,7 +49,7 @@
         <u:sections>
             <u:ObjectPageSection showTitle="false">
                 <u:ObjectPageSubSection>
-                    <Table id="mainTable" items="{cars>/}" growing="true" growingScrollToLoad="true" backgroundDesign="Translucent" growingThreshold="25">
+                    <!-- <Table id="mainTable" items="{cars>/}" growing="true" growingScrollToLoad="true" backgroundDesign="Translucent" growingThreshold="25">
                   <columns>
                      <Column hAlign="Center">
                         <Label text="ID" />
@@ -76,8 +76,8 @@
                         <Text text="{cars>Price}"/>
                      </ColumnListItem>
                   </items>
-               </Table>
-                    <!-- <f:GridList id="gridList" headerText="Cars" items="{cars>/}">
+               </Table> -->
+                    <f:GridList id="gridList" items="{cars>/}">
                         <f:customLayout>
                             <grid:GridBoxLayout boxMinWidth="17rem" />
                         </f:customLayout>
@@ -87,13 +87,14 @@
                                     <FlexItemData growFactor="1" shrinkFactor="0" />
                                 </layoutData>
                                 <Title text="Id:{cars>id}" wrapping="true" />
+                                    <Image  src="{cars>Image}" height="50px" />
                                 <Label text="Car:{cars>Team} {cars>Model}" wrapping="true" />
                                 <Label text="Year:{cars>Year}" wrapping="true" />
                                 <Label text="Color:{cars>color}" wrapping="true" />
                                 <Label text="Price:{cars>Price}" wrapping="true" />
                             </VBox>
                         </f:GridListItem>
-                    </f:GridList> -->
+                    </f:GridList>
                 </u:ObjectPageSubSection>
             </u:ObjectPageSection>
         </u:sections>
