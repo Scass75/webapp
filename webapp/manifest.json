@@ -85,7 +85,7 @@
           "target": "home"
         },
         {
-          "pattern": "detail",
+          "pattern": "detail/({cars})",
           "name": "detail",
           "target": "detail"
         }
