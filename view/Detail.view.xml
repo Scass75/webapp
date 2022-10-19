@@ -1,0 +1,50 @@
+<mvc:View controllerName="ACQ.PaginaAcquisti.controller.Detail" displayBlock="true" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns:card="sap.f.cards" xmlns:f="sap.f">
+    <Page showHeader="true" showNavButton="true" navButtonPress="onBack">
+        <f:Card class="sapUiMediumMargin" width="350px" height="250px" headerPosition="Top">
+            <f:header>
+                <card:Header id="detail" iconSrc="https://thumbs.dreamstime.com/b/la-progettazione-automatica-di-logo-del-concessionario-auto-con-il-concetto-mette-mostra-la-siluetta-del-veicolo-87968244.jpg" />
+            </f:header>
+            <f:content>
+                <VBox class="sapUiSmallMargin" justifyContent="Start">
+                    <HBox justifyContent="Start">
+                        <items>
+                            <Text text="Car:{cars>Team} {cars>Model}"/>
+                        </items>
+                    </HBox>
+                    <HBox justifyContent="Start">
+                        <items>
+                            <Text text="Year:{cars>Year}" />
+                        </items>
+                    </HBox>
+                    <HBox justifyContent="Start">
+                        <items>
+                            <Text text="Color:{cars>color}"/>
+                        </items>
+                    </HBox>
+                    <HBox justifyContent="Start">
+                        <items>
+                            <Text  text="Horse Power: {cars>horsepw} "/>
+                        </items>
+                    </HBox>
+                    <HBox justifyContent="Start">
+                        <items>
+                            <Text text="Price:{cars>Price}"/>
+                        </items>
+                    </HBox>
+                    <HBox justifyContent="Start">
+                        <items>
+                            <Text  text="Actual owner: {cars>Owner} "/>
+                        </items>
+                    </HBox>
+                </VBox>
+            </f:content>
+        </f:Card>
+        <footer>
+            <Bar design="Footer">
+                <contentLeft>
+                    <Button  icon="sap-icon://log" press="onBack1"/>
+                </contentLeft>
+            </Bar>
+        </footer>
+    </Page>
+</mvc:View>

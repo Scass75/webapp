@@ -1,0 +1,44 @@
+<mvc:View controllerName="ACQ.PaginaAcquisti.controller.Main" displayBlock="true" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc" xmlns:core="sap.ui.core" xmlns:card="sap.f.cards" xmlns:f="sap.f">
+    <Page id="login" showHeader="false">
+        <f:Card class="sapUiMediumMargin" width="350px" height="450px" headerPosition="Top">
+            <f:header>
+                <card:Header title="LOGON" subtitle="Insert your Email and Password" iconSrc="sap-icon://account" />
+            </f:header>
+            <f:content>
+                <VBox class="sapUiSmallMargin" justifyContent="Center">
+                    <HBox justifyContent="Center">
+                        <items>
+                            <Image src="https://cdn-icons-png.flaticon.com/512/1946/1946429.png" width="150px" />
+                        </items>
+                    </HBox>
+
+                    <HBox justifyContent="Center">
+                        <items>
+                            <Text text="Email" />
+                        </items>
+                    </HBox>
+                    <HBox justifyContent="Center">
+                        <items>
+                            <Input id="mail" width="300px" />
+                        </items>
+                    </HBox>
+                    <HBox justifyContent="Center">
+                        <items>
+                            <Text text="Password" />
+                        </items>
+                    </HBox>
+                    <HBox justifyContent="Center">
+                        <items>
+                            <Input id="password" type="Password" width="300px" />
+                        </items>
+                    </HBox>
+                    <HBox justifyContent="Center">
+                        <items>
+                            <Button id="go" text="Log In" width="300px" press=".onLogin" type="Emphasized" />
+                        </items>
+                    </HBox>
+                </VBox>
+            </f:content>
+        </f:Card>
+    </Page>
+</mvc:View>
