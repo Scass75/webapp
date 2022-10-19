@@ -14,7 +14,7 @@ sap.ui.define(
           .attachPatternMatched(this.onRouteMatched, this);
       },
       onRouteMatched: function (oEvent) {
-        const id = oEvent.getParameter("arguments").order;
+        const id = oEvent.getParameter("arguments").cars;
         this.byId("detail").setTitle("Selected car id:" + id);
         this.setData(id);
       },
