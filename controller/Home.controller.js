@@ -51,8 +51,6 @@ sap.ui.define(
           this.onSearch();
         },
         onDetail: function (oEvent) {
-          const oModel = new JSONModel(sap.ui.require.toUrl("user.json"))
-          this.getView().setModel(oModel);
           const id = oEvent.getSource().getId();
           var oRouter = this.getOwnerComponent().getRouter();
           oRouter.navTo("detail", {
